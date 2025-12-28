@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Typography, Box } from "@mui/material";
+import { Grid, Typography, Box, Link } from "@mui/material";
 import LeetCodeImage from "../assets/LeetCode.png"
 import MathsBackground from "../assets/MathsBackground.svg";
 import RockedLogo from "../assets/RockedLogo.svg";
@@ -31,7 +31,7 @@ const RightSide = () => {
               <Typography sx={{ color: "#8243E4", fontSize: { md: "180px", sm: "144px", xsm: "116px", xss:"92px", xs:"74px" }, lineHeight: { sm: "100px", xsm: "64px", xs:"52px" } }}>AKHIL</Typography>
             </Grid>
             <Grid container justifyContent="center">
-              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, lineHeight: { md: "72px", sm: "40px", xsm: "52px", xss:"40px", xs:"28px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"110px" } }}>BUTTA</Typography>
+              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, lineHeight: { md: "72px", sm: "40px", xsm: "52px", xss:"40px", xs:"20px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"106px" } }}>BUTTA</Typography>
             </Grid>
             <Grid container justifyContent="center">
               <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" } }}>FULL STACK</Typography>
@@ -71,7 +71,7 @@ const RightSide = () => {
                   </Grid>
                 </Grid>
                 <Grid item>
-                  <Typography sx={{ color: "#636363", fontSize: {xss:"12px", xs:"10px"} }}>ALPHA</Typography>
+                  <Link href="https://drive.google.com/file/d/1mL2BPa67gtmrw2remI5bxr7drW_a99TY/view" underline='hover' color='#636363' target="_blank"><Typography sx={{ color: "#636363", fontSize: {xss:"12px", xs:"10px"} }}>ALPHA</Typography></Link>
                   <Typography sx={{ color: "#8243E4", fontSize: {xss:"10px", xs:"8px"}}}>APNA COLLEGE</Typography>
                   <Grid sx={{ color: "#636363", fontWeight: "normal" }} container direction="row" spacing={1} alignItems="center">
                     <Typography sx={{ fontFamily: "Michroma !important", fontSize: {xss:"8px", xs:"7px"} }}>Java</Typography>
@@ -92,7 +92,7 @@ const RightSide = () => {
                   </Grid>
                 </Grid>
                 <Grid item>
-                  <Typography sx={{ color: "#636363", fontSize: {xss:"12px", xs:"10px"} }}>DELTA</Typography>
+                  <Link href="https://drive.google.com/file/d/1gaCgib9I_-YDZPVpKqLtpOHSUclLIsar/view" underline='hover' color='#636363' target="_blank"><Typography sx={{ color: "#636363", fontSize: {xss:"12px", xs:"10px"} }}>DELTA</Typography></Link>
                   <Typography sx={{ color: "#8243E4", fontSize: {xss:"10px", xs:"8px"} }}>APNA COLLEGE</Typography>
                   <Grid sx={{ color: "#636363", fontWeight: "normal" }} container direction="row" spacing={0.8} alignItems="center">
                     <Typography sx={{ fontFamily: "Michroma !important", fontSize: {xss:"8px", xs:"7px"} }}>Node</Typography>
@@ -117,7 +117,7 @@ const RightSide = () => {
                   </Grid>
                 </Grid>
                 <Grid item>
-                  <Typography sx={{ color: "#636363", fontSize: {xss:"12px", xs:"10px"} }}>DATA SCIENCE & GEN-AI</Typography>
+                  <Link href="https://codebasics.io/certificate/CB-85-536734" underline="hover" color='#636363' target="_blank"><Typography sx={{ color: "#636363", fontSize: {xss:"12px", xs:"10px"} }}>DATA SCIENCE & GEN-AI</Typography></Link>
                   <Typography sx={{ color: "#8243E4", fontSize: {xss:"10px", xs:"8px"} }}>CODE BASICS</Typography>
                   <Grid sx={{ color: "#636363", fontWeight: "normal" }} container direction="row" spacing={1} alignItems="center">
                     <Typography sx={{ fontFamily: "Michroma !important", fontSize: {xss:"8px", xs:"7px"} }}>Python</Typography>
@@ -177,7 +177,7 @@ const RightSide = () => {
               <Typography sx={{ fontSize: { md: "14px", xss: "11.2px", xs:"10px" }, color: "#8243E4" }}>SSC</Typography>
             </Grid>
             <Grid item>
-              <Typography component="span" sx={{ fontSize: { md: "72px", xss: "56px", xs:"44px" }, color: "#636363", lineHeight: {xss:"48px", xs:"32px"} }}>10</Typography>
+              <Typography component="span" sx={{ fontSize: { md: "72px", xss: "56px", xs:"44px" }, color: "#636363", lineHeight: {xss:"48px", xs:"38px"} }}>10</Typography>
               <Typography component="span" sx={{ fontSize: { md: "16px", xss: "12.8px", xs:"10.2px" }, color: "rgba(99, 99, 99, 0.50)" }}>CGPA</Typography>
             </Grid>
           </Grid>
@@ -187,7 +187,7 @@ const RightSide = () => {
               <Typography sx={{ fontSize: { md: "14px", xss: "11.2px", xs:"10px" }, color: "#8243E4" }}>12 <sup style={{ position: "relative", right: "5px" }}>th</sup></Typography>
             </Grid>
             <Grid item>
-              <Typography component="span" sx={{ fontSize: { md: "72px", xss: "56px", xs:"44px" }, color: "#636363", lineHeight: {xss:"48px", xs:"32px"} }}>97</Typography>
+              <Typography component="span" sx={{ fontSize: { md: "72px", xss: "56px", xs:"44px" }, color: "#636363", lineHeight: {xss:"48px", xs:"38px"} }}>97</Typography>
               <Typography component="span" sx={{ fontSize: { md: "16px", xss: "12.8px", xs:"10.2px" }, color: "rgba(99, 99, 99, 0.50)" }}>PCT</Typography>
             </Grid>
           </Grid>
@@ -197,7 +197,7 @@ const RightSide = () => {
               <Typography sx={{ fontSize: { md: "14px", xss: "11.2px", xs:"10px" }, color: "#8243E4" }}>B.TECH</Typography>
             </Grid>
             <Grid item>
-              <Typography component="span" sx={{ fontSize: { md: "72px", xss: "56px", xs:"44px" }, color: "#636363", lineHeight: {xss:"48px", xs:"30px"} }}>9</Typography>
+              <Typography component="span" sx={{ fontSize: { md: "72px", xss: "56px", xs:"44px" }, color: "#636363", lineHeight: {xss:"48px", xs:"38px"} }}>9</Typography>
               <Typography component="span" sx={{ fontSize: { md: "16px", xss: "12.8px", xs:"10.2px" }, color: "rgba(99, 99, 99, 0.50)" }}>CGPA</Typography>
             </Grid>
           </Grid>

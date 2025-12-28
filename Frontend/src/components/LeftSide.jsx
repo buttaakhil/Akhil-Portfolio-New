@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Typography, Box} from "@mui/material";
+import { Grid, Typography, Box, Link } from "@mui/material";
 import PythonIcon from "../assets/PythonIcon.svg";
 import JavaIcon from "../assets/JavaIcon.svg";
 import ReactIcon from "../assets/ReactIcon.svg";
@@ -20,8 +20,8 @@ const LeftSide = () => {
               src={PythonIcon}
               alt="Image"
               sx={{
-                width:{xss:"56px",xs:"44px"},
-                height:{xss:"48px", xs:"38px"},
+                width: { xss: "56px", xs: "44px" },
+                height: { xss: "48px", xs: "38px" },
               }}
             />
           </Grid>
@@ -31,8 +31,8 @@ const LeftSide = () => {
               src={JavaIcon}
               alt="Image"
               sx={{
-                width:{xss:"56px",xs:"44px"},
-                height:{xss:"48px", xs:"38px"},
+                width: { xss: "56px", xs: "44px" },
+                height: { xss: "48px", xs: "38px" },
               }}
             />
           </Grid>
@@ -42,8 +42,8 @@ const LeftSide = () => {
               src={ReactIcon}
               alt="Image"
               sx={{
-                width:{xss:"56px",xs:"44px"},
-                height:{xss:"48px", xs:"38px"},
+                width: { xss: "56px", xs: "44px" },
+                height: { xss: "48px", xs: "38px" },
               }}
             />
           </Grid>
@@ -53,8 +53,8 @@ const LeftSide = () => {
               src={MUIIcon}
               alt="Image"
               sx={{
-                width:{xss:"56px",xs:"44px"},
-                height:{xss:"48px", xs:"38px"},
+                width: { xss: "56px", xs: "44px" },
+                height: { xss: "48px", xs: "38px" },
               }}
             />
           </Grid>
@@ -66,24 +66,25 @@ const LeftSide = () => {
           <Typography sx={{ color: "#636363", fontSize: { xss: "16px", xs: "14px" } }}>PROJECTS</Typography>
         </Grid>
         <Grid item container flex={1}>
-          <Grid item container sx={{ backgroundColor: "#D187BD", borderRadius: "8px", flex: {} }} size={{ xs: 12 }} justifyContent="center" alignItems="center">
+
+          <Grid item container sx={{ backgroundColor: "#D187BD", borderRadius: "8px", flex: {} }} size={{ xs: 12 }} justifyContent="center" alignItems="center" component="a" href='https://buy-me-frontend.vercel.app/' target="_blank">
             <Box
               component="img"
               src={BuyMeLogo}
               alt="Buy Me Logo"
               sx={{
-                height: { xss:"64%", xs:"56%" }, 
+                height: { xss: "64%", xs: "56%" },
               }}
             />
-
           </Grid>
-          <Grid item container sx={{ backgroundColor: "#282828", borderRadius: "8px" }} size={{ xs: 12 }} justifyContent="center" alignItems="center">
+
+          <Grid item container sx={{ backgroundColor: "#282828", borderRadius: "8px" }} size={{ xs: 12 }} justifyContent="center" alignItems="center" component="a" href='https://deep-fake-face-detection.vercel.app/' target="_blank">
             <Box
               component="img"
               src={StreeShieldLogo}
               alt="Stree Shield Logo"
               sx={{
-                height: { xss:"64%", xs:"56%" }, 
+                height: { xss: "64%", xs: "56%" },
               }}
             />
           </Grid>
