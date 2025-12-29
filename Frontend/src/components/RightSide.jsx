@@ -31,7 +31,7 @@ const RightSide = () => {
               <Typography sx={{ color: "#8243E4", fontSize: { md: "180px", sm: "144px", xsm: "116px", xss:"92px", xs:"74px" }, lineHeight:{xs:"48px",xss:"60px",xsm:"76px",sm:"96px",md:"120px"} }} >AKHIL</Typography>
             </Grid>
             <Grid container justifyContent="center">
-              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"106px" }, lineHeight:{xs:"0px",xsm:"15px",sm:"19px",md:"24px"} }}>BUTTA</Typography>
+              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"106px" }, lineHeight:{xs:"0px",xsm:"15px",sm:"19px",md:"24px", xxl:"16px"} }}>BUTTA</Typography>
             </Grid>
             <Grid container justifyContent="center">
               <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight:{xs:"16px",xss:"20px",xsm:"25.6px",sm:"32px",md:"40px"} }}>FULL STACK</Typography>
@@ -55,13 +55,15 @@ const RightSide = () => {
         </Grid>
         {/* right */}
         <Grid item size={{ xl: 4 }} container direction="column" spacing={2}>
-          <Grid item flex={2.5} sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px", position: "relative", overflowX: "clip" }} container direction="column" justifyContent="space-between">
+          <Grid item sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px", position: "relative", overflowX: "clip", flex:{xs:"2.5"} }} container direction="column" gap={2}>
             <img src={TickIcon} alt="" style={{ position: "absolute", right: "-64px" }} width="176px" />
             <Grid item>
               <Typography sx={{ color: "#636363", fontSize: {xss:"16px", xs:"14px"} }}>PROOF OF WORK</Typography>
             </Grid>
-            {/* item 1 */}
-            <Grid item>
+            
+            <Grid item container flex={1} direction="column" sx={{gap:{xxl:"32px"}}}>
+              {/* item 1 */}
+              <Grid item>
               <Grid container direction="row" spacing={2} alignItems="center">
                 <Grid item sx={{ backgroundColor: "rgba(130, 67, 228, 0.08)", padding: "8px", borderRadius: "50%" }}>
                   <Grid sx={{ backgroundColor: "rgba(130, 67, 228, 0.16)", padding: "8px", borderRadius: "50%" }}>
@@ -131,14 +133,22 @@ const RightSide = () => {
                 </Grid>
               </Grid>
             </Grid>
+            </Grid>
           </Grid>
-          <Grid item flex={1} sx={{ backgroundColor: "#8243E4", borderRadius: {xsm:"8px", xs:"6px"}, position: "relative", paddingLeft: "16px", overflow: "clip", gap: { sm: "0px", xs: "8px" } }} container justifyContent="center" direction="column" >
+          <Grid item sx={{ backgroundColor: "#8243E4", borderRadius: {xsm:"8px", xs:"6px"}, position: "relative", paddingLeft: "16px", overflow: "clip", gap: { sm: "0px", xs: "8px" }, flex:{xs:"1", xxl:"1.5"} }} container justifyContent="center" direction="column" >
             <Typography sx={{ color: "#CFB0FF", fontSize: { sm: "16px", xss: "14px", xs:"12px" }, position: "relative", top: {xss:"32px", xs:"26px"} }}>SDE INTERN</Typography>
             <Grid item sx={{ position: 'relative', bottom: "8px" }}>
               <Typography component="span" sx={{ fontSize: { sm: "80px", xss: "64px", xs:"52px" }, color: "#FFF", fontFamily: "Microsoft Yi Baiti !important" }}>ROCK</Typography>
               <Typography component="span" sx={{ fontSize: { sm: "56px", xss: "44px", xs:"36px" }, color: "#FFF", fontWeight: "700", fontFamily: "Microsoft YaHei UI !important" }}>ED</Typography>
             </Grid>
-            <img src={RockedLogo} alt="" style={{ position: "absolute", right: "-16px" }} height="80%" />
+            {/* <img src={RockedLogo} alt="" style={{ position: "absolute", right: "-16px" }} height="80%" /> */}
+            <Box 
+              component="img"
+              src={RockedLogo}
+              sx={{
+                position: "absolute", right: {xs:"-16px", xxl:"-32px"}, height:"80%"
+              }}
+            />
           </Grid>
         </Grid>
       </Grid>
