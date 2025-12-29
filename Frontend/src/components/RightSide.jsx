@@ -26,18 +26,18 @@ const RightSide = () => {
               <Typography sx={{ color: "#636363", fontSize: { md: "40px", sm: "32px", xsm: "25px", xss:"21.2px", xs:"17px" } }}>MATHEMATICS</Typography>
             </Grid>
           </Grid>
-          <Grid item sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px", position: "relative" }} flex={2}  container direction="column" justifyContent="center">
+          <Grid item sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px", position: "relative" }} flex={2}  container direction="column" justifyContent="center" gap={0}>
             <Grid container justifyContent="center">
               <Typography sx={{ color: "#8243E4", fontSize: { md: "180px", sm: "144px", xsm: "116px", xss:"92px", xs:"74px" }, lineHeight:{xs:"48px",xss:"60px",xsm:"76px",sm:"96px",md:"120px"} }} >AKHIL</Typography>
             </Grid>
             <Grid container justifyContent="center">
-              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"106px" }, lineHeight:{xs:"0px",xsm:"15px",sm:"19px",md:"24px", xxl:"16px"} }}>BUTTA</Typography>
+              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"106px" }, lineHeight:{xs:"24px",xss:"32px",xsm:"40px",sm:"40px",md:"56px", xxl:"56px"} }}>BUTTA</Typography>
             </Grid>
             <Grid container justifyContent="center">
               <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight:{xs:"16px",xss:"20px",xsm:"25.6px",sm:"32px",md:"40px"} }}>FULL STACK</Typography>
             </Grid>
             <Grid container justifyContent="center">
-              <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight:{xs:"18px",xss:"32px",xsm:"44px",sm:"56px",md:"80px"} }}>DEVELOPER</Typography>
+              <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight:{xs:"48px",xss:"56px",xsm:"64px",sm:"80px",md:"100px"} }}>DEVELOPER</Typography>
             </Grid>
             <Grid container justifyContent="center">
               <Box
