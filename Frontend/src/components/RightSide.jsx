@@ -11,33 +11,33 @@ import AIIcon from "../assets/AIIcon.svg";
 import TickIcon from "../assets/TickIcon.svg";
 const RightSide = () => {
   return (
-    <Grid item container size={{ xl: 9, xs: 12 }} direction="column" spacing={2}>
+    <Grid item container size={{ xl: 9, xs: 12 }} direction="column" spacing={2} >
       {/* top */}
-      <Grid item size={{ xl: 12, xs: 12 }} container flex={2.5} sx={{ flexDirection: { xs: "column", xl: "row" } }}>
+      <Grid item size={{ xs: 12 }} container flex={2.5} sx={{ flexDirection: { xs: "column", xl: "row" } }}>
         {/* left */}
         <Grid item size={{ xl: 8 }} container direction="column">
           <Grid item flex={1} container sx={{ minHeight: {xsm:"148px", xss:"118px", xs:"96px"} }}>
-            <Grid container direction="column" justifyContent="center" spacing={0} item sx={{ backgroundColor: "#FFF", borderRadius: "8px", backgroundImage: `url(${LeetCodeImage})`, backgroundSize: "cover", backgroundPosition: "center" }} flex={1}>
+            <Grid container direction="column" justifyContent="center" spacing={0} item sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, backgroundImage: `url(${LeetCodeImage})`, backgroundSize: "cover", backgroundPosition: "center" }} flex={1}>
               <Typography sx={{ color: "#FFF", fontSize: { md: "64px", sm: "50px", xsm: "40px", xss:"32px", xs:"26px" }, lineHeight: { xsm: "40px", sm: "64px", xs:"32px" }, marginLeft: "16px" }}>400+</Typography>
               <Typography sx={{ color: "#F9A12C", fontSize: { md: "16px", xsm: "12px", xss:"11.2px", xs:"10px" }, marginLeft: "16px" }}>PROBLEMS SOLVED</Typography>
             </Grid>
-            <Grid container direction="column" justifyContent="center" spacing={0} item sx={{ backgroundColor: "#FFF", borderRadius: "8px", backgroundImage: `url(${MathsBackground})`, backgroundSize: "cover", backgroundPosition: "center", padding: "0px 16px" }} flex={1}>
+            <Grid container direction="column" justifyContent="center" spacing={0} item sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, backgroundImage: `url(${MathsBackground})`, backgroundSize: "cover", backgroundPosition: "center", padding: "0px 16px" }} flex={1}>
               <Typography sx={{ color: "#8243E4", fontSize: { md: "16px", xsm: "12px", xss:"11.2px", xs:"10px" }, lineHeight: {xss:"0px", xs:"6px"}, marginTop: "16px" }}>DUAL DEGREE</Typography>
               <Typography sx={{ color: "#636363", fontSize: { md: "40px", sm: "32px", xsm: "25px", xss:"21.2px", xs:"17px" } }}>MATHEMATICS</Typography>
             </Grid>
           </Grid>
-          <Grid item sx={{ backgroundColor: "#FFF", borderRadius: "8px", padding: "16px", position: "relative" }} flex={2}>
+          <Grid item sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px", position: "relative" }} flex={2}  container direction="column" justifyContent="center">
             <Grid container justifyContent="center">
-              <Typography sx={{ color: "#8243E4", fontSize: { md: "180px", sm: "144px", xsm: "116px", xss:"92px", xs:"74px" }, lineHeight: { sm: "100px", xsm: "64px", xs:"52px" } }}>AKHIL</Typography>
+              <Typography sx={{ color: "#8243E4", fontSize: { md: "180px", sm: "144px", xsm: "116px", xss:"92px", xs:"74px" }, lineHeight:{xs:"48px",xss:"60px",xsm:"76px",sm:"96px",md:"120px"} }} >AKHIL</Typography>
             </Grid>
             <Grid container justifyContent="center">
-              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, lineHeight: { md: "72px", sm: "40px", xsm: "52px", xss:"40px", xs:"20px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"106px" } }}>BUTTA</Typography>
+              <Typography sx={{ color: "#636363", fontSize: { md: "16px", xsm: "12px", xs:"10px" }, position: "relative", left: { md: "272px", sm: "216px", xsm: "172px", xss:"136px", xs:"106px" }, lineHeight:{xs:"0px",xsm:"15px",sm:"19px",md:"24px"} }}>BUTTA</Typography>
             </Grid>
             <Grid container justifyContent="center">
-              <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" } }}>FULL STACK</Typography>
+              <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight:{xs:"16px",xss:"20px",xsm:"25.6px",sm:"32px",md:"40px"} }}>FULL STACK</Typography>
             </Grid>
             <Grid container justifyContent="center">
-              <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" } }}>DEVELOPER</Typography>
+              <Typography sx={{ letterSpacing: "4px", WebkitTextStroke: "2px", WebkitTextStrokeColor: "rgba(130, 67, 228, 0.30)", WebkitTextFillColor: "transparent", fontSize: { md: "80px", sm: "64px", xsm: "52px", xss:"42px", xs:"33.6px" }, lineHeight:{xs:"18px",xss:"32px",xsm:"44px",sm:"56px",md:"80px"} }}>DEVELOPER</Typography>
             </Grid>
             <Grid container justifyContent="center">
               <Box
@@ -47,7 +47,7 @@ const RightSide = () => {
                 sx={{
                   position: "absolute",
                   bottom: 0,
-                  width: { md: "240px", sm: "192px", xsm: "170px", xss:"156px", xs:"124px" }
+                  width: { md: "240px", sm: "192px", xsm: "170px", xss:"156px", xs:"124px", xl:"264px" }
                 }}
               />
             </Grid>
@@ -55,7 +55,7 @@ const RightSide = () => {
         </Grid>
         {/* right */}
         <Grid item size={{ xl: 4 }} container direction="column" spacing={2}>
-          <Grid item flex={2.5} sx={{ backgroundColor: "#FFF", borderRadius: "8px", padding: "16px", position: "relative", overflowX: "clip" }} container direction="column" justifyContent="space-between">
+          <Grid item flex={2.5} sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px", position: "relative", overflowX: "clip" }} container direction="column" justifyContent="space-between">
             <img src={TickIcon} alt="" style={{ position: "absolute", right: "-64px" }} width="176px" />
             <Grid item>
               <Typography sx={{ color: "#636363", fontSize: {xss:"16px", xs:"14px"} }}>PROOF OF WORK</Typography>
@@ -132,7 +132,7 @@ const RightSide = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item flex={1} sx={{ backgroundColor: "#8243E4", borderRadius: "8px", position: "relative", paddingLeft: "16px", overflow: "clip", gap: { sm: "0px", xs: "8px" } }} container justifyContent="center" direction="column" >
+          <Grid item flex={1} sx={{ backgroundColor: "#8243E4", borderRadius: {xsm:"8px", xs:"6px"}, position: "relative", paddingLeft: "16px", overflow: "clip", gap: { sm: "0px", xs: "8px" } }} container justifyContent="center" direction="column" >
             <Typography sx={{ color: "#CFB0FF", fontSize: { sm: "16px", xss: "14px", xs:"12px" }, position: "relative", top: {xss:"32px", xs:"26px"} }}>SDE INTERN</Typography>
             <Grid item sx={{ position: 'relative', bottom: "8px" }}>
               <Typography component="span" sx={{ fontSize: { sm: "80px", xss: "64px", xs:"52px" }, color: "#FFF", fontFamily: "Microsoft Yi Baiti !important" }}>ROCK</Typography>
@@ -144,7 +144,7 @@ const RightSide = () => {
       </Grid>
       {/* bottom */}
       <Grid item size={{ xl: 12, xs: 12 }} flex={1} container sx={{ flexDirection: { xl: "row", xs: "column" } }}>
-        <Grid item flex={1} sx={{ backgroundColor: "#FFF", borderRadius: "8px", paddingLeft: "16px", position: "relative", overflowX: "clip", gap: { md: "0px", xs: "16px" } }} container direction="column" justifyContent="center">
+        <Grid item flex={1} sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, paddingLeft: "16px", position: "relative", overflowX: "clip", gap: { md: "0px", xs: "16px" } }} container direction="column" justifyContent="center">
           <Grid item container direction="column" spacing={0}>
             <Typography sx={{ color: "#8243E4", fontSize: { xs:"12px",xss: "14px", md: "16px" }, position: "relative", top: "14px" }}>JEE MAINS</Typography>
             <Grid item>
@@ -171,7 +171,7 @@ const RightSide = () => {
           />
 
         </Grid>
-        <Grid item flex={2} sx={{ backgroundColor: "#FFF", borderRadius: "8px", padding: "16px" }} container justifyContent="space-around" alignItems="center">
+        <Grid item flex={2} sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px" }} container justifyContent="space-around" alignItems="center">
           <Grid item container direction="column" justifyContent="center" spacing={0}>
             <Grid item>
               <Typography sx={{ fontSize: { md: "14px", xss: "11.2px", xs:"10px" }, color: "#8243E4" }}>SSC</Typography>

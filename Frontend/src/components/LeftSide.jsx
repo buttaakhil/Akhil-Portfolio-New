@@ -11,7 +11,7 @@ const LeftSide = () => {
   return (
     <Grid item size={{ xl: 3, xs: 12 }} container direction="column" spacing={2}>
 
-      <Grid item container direction="column" spacing={8} flex={1} sx={{ backgroundColor: "#FFF", borderRadius: "8px", padding: "16px", paddingBottom: { xs: "32px", xl: "16px" } }}>
+      <Grid item container direction="column" spacing={8} flex={1} sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px", paddingBottom: { xs: "32px", xl: "16px" } }}>
         <Typography sx={{ color: "#636363", fontSize: { xss: "16px", xs: "14px" } }}>EXPERT</Typography>
         <Grid item container size={{ xl: 12 }} spacing={-2} justifyContent="center">
           <Grid item sx={{ backgroundColor: "#FFF", boxShadow: "0px 10px 30px rgba(57,43,79,0.1)", padding: "8px", borderRadius: "16px", transform: "rotate(-20deg) translate(12px, 8px)" }}>
@@ -61,7 +61,7 @@ const LeftSide = () => {
         </Grid>
       </Grid>
 
-      <Grid item container flex={2} justifyContent="center" direction="column" sx={{ backgroundColor: "#FFF", borderRadius: "8px", padding: "16px" }} >
+      <Grid item container flex={2} justifyContent="center" direction="column" sx={{ backgroundColor: "#FFF", borderRadius: {xsm:"8px", xs:"6px"}, padding: "16px" }} >
         <Grid item>
           <Typography sx={{ color: "#636363", fontSize: { xss: "16px", xs: "14px" } }}>PROJECTS</Typography>
         </Grid>

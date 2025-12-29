@@ -8,7 +8,7 @@ import './App.css';
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-    <Grid container wrap="wrap-reverse" sx={{backgroundColor: "#2E2E2E", padding: {sm:"32px", xs:"16px"}, }} spacing={2}>
+    <Grid container wrap="wrap-reverse" sx={{backgroundColor: "#2E2E2E", padding: {sm:"32px", xs:"16px"}, minHeight:"100vh" }} spacing={2}>
       <LeftSide />
       <RightSide />
     </Grid>
